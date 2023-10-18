@@ -1,0 +1,162 @@
+html{
+    background-color:#EDF2C5;
+    font-family: sans-serif;
+    max-width: 1440px;
+    max-height: 1024px;
+    padding: 0 160px;
+    display: grid;
+    justify-content: center;
+}
+
+body{ 
+    width: 1120px;
+}
+    
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+
+/* color */
+.c1{
+    color: #778A50;
+
+}
+.bgc1{
+    background: #778A50;
+}
+.c2{
+    color: #EDF2C5;
+}
+.bgc2{
+    background: #EDF2C5;
+}
+.c3{
+    color: #F7FBDA;
+
+}
+.bgc3{
+    background: #F7FBDA;
+}
+.c4{
+    color:#7D7D7D;
+}
+
+/* style */
+.border-radius{
+    border-radius: 3px;
+}
+.font-weight{
+    font-weight: 900;
+}
+.w-100{
+    width: 100%;
+}
+
+
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    max-height: 62px;
+    padding-top: 36px;
+
+}
+.logo{
+    max-width: 253px;
+    max-height: 60px;
+    font-size: 44px;
+}
+.header .div-icon{
+    border-right: solid #778A50 2px;
+    margin-right: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+}
+.header .icon{
+    margin:0 8px;
+    max-width: 24px;
+    max-height: 24px;
+}
+.header .btn{
+    max-width: 208px;
+    max-height: 24px;
+    border:solid #778A50 ;
+    padding: 4px 8px;
+    margin:0 4px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* nav */
+nav{
+    max-width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+nav a{
+    padding: 0 31px;
+    color: #EDF2C5;
+}
+
+/* body */
+.body{
+    padding-top: 10px;
+}
+.banner {
+    width: 100%;
+}
+.body .title{
+    padding: 10px 30px;
+    font-size: 16px;
+
+}
+.twodiv{
+    justify-content: space-between;
+}
+
+.vegetables{
+    margin-top: 32px;
+    width: 528px;
+}.pic_wall{
+    justify-content: space-between;
+}
+.vegetables img{
+    width: 165px;
+    height: 140px;
+}
+
+.contact{
+    margin-top: 32px;
+    width: 528px;
+    max-height: 140px;
+}
+
+.text{
+    padding:16px;
+}
+.text .untext{
+    margin: 0px;
+}
+.inline{
+    border-bottom: solid 2px #7D7D7D;
+    padding-bottom: 9px;
+    margin-bottom: 9px;
+    margin-top: 0;
+}
+
+/* footer */
+.footer{
+    margin-top: 100px;
+    padding: 21px 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+
+}
